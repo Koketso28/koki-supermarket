@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koki's Supermarket - Order Form</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO KOKI'S SUPERMARKET</h1>
+        <nav>
+            <a href="HOME.html">Home Page</a>
+            <a href="PK.html">Log In</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="order-form">
+            <h2>Order Form</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="name" required>
+
+                <label>Surname:</label>
+                <input type="text" name="surname" required>
+
+                <label>Email:</label>
+                <input type="email" name="email" required>
+
+                <label>Contact No:</label>
+                <input type="tel" name="contact" required>
+
+                <label>Payment:</label>
+                <input type="text" select name="payment" placeholder="e.g. Credit Card OR cash">
+
+                <label>Foods:</label>
+                <select name="foods">
+                    <option value="">Select types of food</option>
+                    <option value="rice">rice</option>
+                    <option value="samp">samp</option>
+                    <option value="potatoes">potatoes</option>
+                    <option value="beans">beans</option>
+                    <option value="maize meal">maize meal</option>
+                </select>
+
+                <div class="images">
+                    <img src="pictures/beans.webp">
+                    <img src="pictures/potatos.png">
+                    <img src="pictures/rice.jpg">
+                    <img src="pictures/samp.jpg">
+                </div>
+
+                <button type="button">CALCULATE</button>
+            </form>
+        </section>
+
+        <section class="social">
+            <p>You can find us on</p>
+            <img src="pictures/facebook.webp " alt="Facebook">
+            <img src="pictures/watsapp.avif" alt="WhatsApp">
+            <img src="pictures/twitter.webp" alt="Twitter">
+        </section>
+    </main>
+</body>
+</html>
